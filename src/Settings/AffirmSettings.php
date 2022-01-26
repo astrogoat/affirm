@@ -12,7 +12,7 @@ class AffirmSettings extends AppSettings
 
     protected array $rules = [
          'url' => ['required', 'url'],
-         'access_token' => ['required'],
+         'public_key' => ['required'],
     ];
 
     public function description(): string
