@@ -19,10 +19,15 @@ composer require astrogoat/affirm
 
 ## Usage
 
+Include the script in your Blade file:
+
 ```php
-$affirm = new Astrogoat\Affirm();
-echo $affirm->echoPhrase('Hello, Astrogoat!');
+@include('affirm::script');
 ```
+
+When enabled this will add the Affirm javascript. You now have access to Affirms's promotional messaging.
+See [Affirm documentation](https://docs.affirm.com/developers/docs/promo-messaging-getting-started/) for more info.
+
 
 ## Testing
 

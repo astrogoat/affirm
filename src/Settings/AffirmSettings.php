@@ -7,22 +7,13 @@ use Astrogoat\Affirm\Actions\AffirmAction;
 
 class AffirmSettings extends AppSettings
 {
-    // public string $url;
-    // public string $access_token;
+     public string $url;
+     public string $public_key;
 
     protected array $rules = [
-        // 'url' => ['required', 'url'],
-        // 'access_token' => ['required'],
+         'url' => ['required', 'url'],
+         'access_token' => ['required'],
     ];
-
-    protected static array $actions = [
-        // AffirmAction::class,
-    ];
-
-    // public static function encrypted(): array
-    // {
-    //     return ['access_token'];
-    // }
 
     public function description(): string
     {
