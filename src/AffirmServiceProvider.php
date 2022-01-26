@@ -2,11 +2,11 @@
 
 namespace Astrogoat\Affirm;
 
+use Astrogoat\Affirm\Settings\AffirmSettings;
 use Helix\Lego\Apps\App;
 use Helix\Lego\LegoManager;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Astrogoat\Affirm\Settings\AffirmSettings;
 
 class AffirmServiceProvider extends PackageServiceProvider
 {

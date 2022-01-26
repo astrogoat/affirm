@@ -2,9 +2,9 @@
 
 namespace Astrogoat\Affirm\Tests;
 
+use Astrogoat\Affirm\AffirmServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Astrogoat\Affirm\AffirmServiceProvider;
 
 class TestCase extends Orchestra
 {
