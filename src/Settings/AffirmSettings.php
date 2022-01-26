@@ -2,8 +2,8 @@
 
 namespace Astrogoat\Affirm\Settings;
 
-use Helix\Lego\Settings\AppSettings;
 use Astrogoat\Affirm\Actions\AffirmAction;
+use Helix\Lego\Settings\AppSettings;
 
 class AffirmSettings extends AppSettings
 {
