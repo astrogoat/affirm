@@ -25,7 +25,7 @@ Include the script in your Blade file:
 @include('affirm::script');
 ```
 
-When enabled this will add the Affirm javascript. You now have access to Affirms's promotional messaging.
+When enabled this will add the Affirm javascript. You now have access to Affirm's promotional messaging.
 See [Affirm documentation](https://docs.affirm.com/developers/docs/promo-messaging-getting-started/) for more info.
 
 
